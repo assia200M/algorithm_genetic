@@ -37,7 +37,7 @@ void initialiser_parametres(const json& data){
     TAILLE_COUVERTURE=NB_EMPLACEMENTS*NB_CAPTEURS;
 }
 
-// Génération d'une matrice de couverture aléatoire
+// Génération d'une matrice de couverture 
 vector<vector<int>> generer_matrice_couverture(){
     vector<vector<int>> couverture(TAILLE_COUVERTURE,vector<int>(NB_POINTS_INTERET));
     for(int i=0;i<TAILLE_COUVERTURE;i++){
